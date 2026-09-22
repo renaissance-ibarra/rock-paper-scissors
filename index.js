@@ -15,3 +15,8 @@ function getComputerChoice() {
 		return;
 	}
 }
+
+function getHumanChoice() {
+	let humanChoice = prompt("Rock, Paper, Scissors. Shoot!");
+	console.log("you chose " + humanChoice);
+}
